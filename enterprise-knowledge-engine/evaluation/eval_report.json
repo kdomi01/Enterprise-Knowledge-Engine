@@ -1,0 +1,24 @@
+{
+    "metrics_summary": {
+        "avg_faithfulness": 0.9,
+        "avg_context_precision": 1.0,
+        "total_evaluated_cases": 1
+    },
+    "detailed_runs": [
+        {
+            "query": "What was the new target range for the federal funds rate after the Federal Open Market Committee's decision?",
+            "ground_truth": "3-1/2 to 3-3/4 percent",
+            "system_generation": "The new target range for the federal funds rate set by the Federal Open Market Committee (FOMC) after their decision was:\n\n**3-1/2 to 3-3/4 percent**\n\nThis can be inferred from the text where it states \"In consideration of the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"\n\nSo, the committee decided to keep the federal funds rate within the range of **3-1/2 to 3-3/4 percent**.",
+            "visited_steps": [
+                "retrieve_node",
+                "rerank_node",
+                "generate_node"
+            ],
+            "scores": {
+                "faithfulness": 0.9,
+                "context_precision": 1.0
+            },
+            "critique": "The response accurately reflects the information provided in the context, which includes the new target range for the federal funds rate."
+        }
+    ]
+}
