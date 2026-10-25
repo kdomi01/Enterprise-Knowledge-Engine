@@ -1,6 +1,6 @@
 # Enterprise Knowledge Engine
 
-A local, production-grade Retrieval-Augmented Generation (RAG) pipeline built using LangGraph, Qdrant, and native Hugging Face Transformers. The architecture leverages hybrid search (dense semantic vectors combined with sparse lexical tokens) via a unified **BGE-M3** model, cross-encoder reranking through **BGE-Reranker-v2-M3**, and local in-memory text synthesis with **Qwen2.5-1.5B-Instruct**.
+A local Retrieval-Augmented Generation (RAG) pipeline built using LangGraph, Qdrant, and native Hugging Face Transformers. The architecture leverages hybrid search (dense semantic vectors combined with sparse lexical tokens) via a unified **BGE-M3** model, cross-encoder reranking through **BGE-Reranker-V2-M3**, and local in-memory text synthesis with **Qwen2.5-1.5B-Instruct**.
 
 ---
 
